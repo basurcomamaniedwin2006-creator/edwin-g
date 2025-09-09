@@ -1,9 +1,8 @@
 package pe.edu.upeu.polimorfismo;
 
-public class gato extends animal{
-  @Override
-    void sonidoAnimal(){
-        System.out.println("meuuuuuu.. meuu");
-
+public class Gato extends Animal {
+    @Override
+    void sonidoAnimal() {
+        System.out.println("Meu....meu...");
     }
 }

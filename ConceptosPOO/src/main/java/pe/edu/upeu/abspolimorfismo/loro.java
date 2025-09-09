@@ -1,15 +1,16 @@
 package pe.edu.upeu.abspolimorfismo;
 
-public class loro extends animal{
+public class Loro extends Animal {
 
     @Override
     void emitirSonido() {
-        System.out.println("hey... note distraigas¡");
+        System.out.println("Hey...no te distraigas!");
     }
+
     @Override
     void dormir() {
         super.dormir();
-        System.out.println( "dejame dormir " +
-                "zzz zzz zzz");
+        System.out.println("Dejame dormir.." +
+                "Zzz...zzz..zz.");
     }
 }

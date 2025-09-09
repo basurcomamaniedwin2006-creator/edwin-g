@@ -1,10 +1,9 @@
 package pe.edu.upeu.abspolimorfismo;
 
-public abstract class animal {
+public abstract class Animal {
    abstract void emitirSonido();
 
-
    void dormir(){
-       System.out.println("zzz zzz zzz");
+       System.out.println("Zzz...zzz..zz.");
    }
 }

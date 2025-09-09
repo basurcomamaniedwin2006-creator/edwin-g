@@ -1,7 +1,7 @@
 package pe.edu.upeu.polimorfismo;
 
-public class animal {
+public class Animal {
     void sonidoAnimal(){
-        System.out.println("El Animal hace sonido");
+        System.out.println("El animal hace sonido");
     }
 }

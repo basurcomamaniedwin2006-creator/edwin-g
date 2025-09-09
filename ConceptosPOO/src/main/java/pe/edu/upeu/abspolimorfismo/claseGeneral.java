@@ -1,9 +1,9 @@
 package pe.edu.upeu.abspolimorfismo;
 
-public class claseGeneral {
+public class ClaseGeneral {
     public static void main(String[] args) {
-       loro l = new loro();
-       l.emitirSonido();
-       l.dormir();
+        Loro l = new Loro();
+        l.emitirSonido();
+        l.dormir();
     }
 }
